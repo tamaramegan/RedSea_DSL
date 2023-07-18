@@ -3,5 +3,6 @@ This repository contains the code base to reproduce the main figures presented i
 
 #### How to use this repository
 - The code is written in R (version 3.6.1) within RStudio (1.2.5019). No other versions have been tested
-- Inside the folder 'Figures_main' there is a script per figure (eg: Huete-Stauffer_Fig2.R). You can open that script inside RStudio and use the button 'Source' to run the script entirely and output the figure to terminal. You van also run it manually if you are interested in the intermediate steps of each figure.
-- The original data (sequences with taxonomy and metadata) are available for download at https://zenodo.org/record/5816123. You don't need to doenload these files before running the scripts, it is integrated inside each script.
+- Inside the folder 'Figures_main' there is a script per figure (eg: Huete-Stauffer_Fig2.R). You can open that script inside RStudio and use the button 'Source' to run the script entirely and output the figure to the Figures_main folder. You can also run it manually if you are interested in the intermediate steps of each figure.
+- The original data (sequences with taxonomy and metadata) are available for download at https://zenodo.org/record/5816123. You don't need to download these files before running the scripts, they are called when needed inside each script.
+- The file Requirements.R is shows the packages and versions required to the able to run the scripts.
